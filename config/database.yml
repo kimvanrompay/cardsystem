@@ -21,25 +21,25 @@ default: &default
 
 development:
   <<: *default
-  database: cardsystem_development
+  database: defaultdb
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
   # When left blank, PostgreSQL will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: cardsystem
+  username: doadmin
 
   # The password associated with the PostgreSQL role (username).
-  #password:
+  password: AVNS_3Y6ZViWyCXNrQdplLjR
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
+  host: db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  #port: 5432
+  port: 25060
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
