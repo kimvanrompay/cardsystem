@@ -72,7 +72,7 @@ test:
 # URL environment variable explicitly:
 #
 #   production:
-#     url: <%= ENV["MY_APP_DATABASE_URL"] %>
+url: db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
@@ -81,4 +81,5 @@ production:
   <<: *default
   database: prddb
   username: doadmin
+  port: 25060
   password: <%= ENV[“PRDDB_PASSWORD”] %>
