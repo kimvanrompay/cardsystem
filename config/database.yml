@@ -78,8 +78,8 @@ test:
 #
 production:
   <<: *default
-  url: "postgres://doadmin:AVNS_3Y6ZViWyCXNrQdplLjR@db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com:25060/prddb"
+  url: <%= ENV["PRD_URL"] %>
   database: prddb
   username: doadmin
   port: 25060
-  password: AVNS_3Y6ZViWyCXNrQdplLjR
+  password: <%= ENV["PRDDB_PASSWORD"] %>
