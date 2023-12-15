@@ -72,13 +72,13 @@ test:
 # URL environment variable explicitly:
 #
 #   production:
-url: db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
 production:
   <<: *default
+  url: "db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com"
   database: prddb
   username: doadmin
   port: 25060
