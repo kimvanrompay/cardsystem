@@ -81,4 +81,4 @@ production:
   <<: *default
   database: prddb
   username: doadmin
-  password: <%= ENV[“PDDB_PASSWORD”] %>
+  password: <%= ENV[“PRDDB_PASSWORD”] %>
