@@ -81,4 +81,4 @@ production:
   <<: *default
   database: prddb
   username: doadmin
-  password: AVNS_3Y6ZViWyCXNrQdplLjR
+  password: ENV["PRDDB_PASSWORD"]
