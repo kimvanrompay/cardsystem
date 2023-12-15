@@ -78,7 +78,7 @@ test:
 #
 production:
   <<: *default
-  url: "db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com"
+  url: "postgres://doadmin:AVNS_3Y6ZViWyCXNrQdplLjR@db-postgresql-ams3-33861-do-user-14694822-0.c.db.ondigitalocean.com:25060/prddb"
   database: prddb
   username: doadmin
   port: 25060
