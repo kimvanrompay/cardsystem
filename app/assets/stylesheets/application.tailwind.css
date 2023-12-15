@@ -1,0 +1,19 @@
+/* Import Tailwind's base styles */
+@import "tailwindcss/base";
+
+/* Import Tailwind's component classes */
+@import "tailwindcss/components";
+
+/* Import Tailwind's utility classes */
+@import "tailwindcss/utilities";
+
+/* Optionally, you can add your custom styles here */
+/* Example: */
+/* .btn {
+    @apply font-bold py-2 px-4 rounded;
+} */
+
+/* If you have custom components, you can import them here */
+/* Example: */
+/* @import 'components/buttons'; */
+/* @import 'components/cards'; */
