@@ -82,4 +82,4 @@ production:
   database: prddb
   username: doadmin
   port: 25060
-  password: <%= ENV[“PRDDB_PASSWORD”] %>
+  password: AVNS_3Y6ZViWyCXNrQdplLjR
